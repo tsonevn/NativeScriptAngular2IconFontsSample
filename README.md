@@ -1,0 +1,1 @@
+# NativeScriptAngular2IconFontsSample
