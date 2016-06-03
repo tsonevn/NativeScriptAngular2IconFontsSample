@@ -18,7 +18,7 @@ export class AppComponent {
     constructor() {
         this.counter = 0;
         this.glyphs=[]
-        for (var charCode = 0xe903; charCode <= 0xeaea; charCode++) {
+        for (var charCode = 0xf100; charCode <= 0xf14b; charCode++) {
             this.glyphs.push(new Glyphs(String.fromCharCode(charCode), charCode.toString(16),this.counter));
             this.counter++; 
             console.log("array size "+this.glyphs.length);

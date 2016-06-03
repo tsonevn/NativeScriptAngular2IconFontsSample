@@ -12,7 +12,9 @@ var AppComponent = (function () {
     function AppComponent() {
         this.counter = 0;
         this.glyphs = [];
-        for (var charCode = 0xe903; charCode <= 0xeaea; charCode++) {
+        // for(var i=0; i<10;i++){
+        for (var charCode = 0xf100; charCode <= 0xf14b; charCode++) {
+            //    var charCode=0xf100;;
             this.glyphs.push(new Glyphs(String.fromCharCode(charCode), charCode.toString(16), this.counter));
             this.counter++;
             console.log("array size " + this.glyphs.length);
