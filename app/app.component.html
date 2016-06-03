@@ -1,0 +1,11 @@
+<GridLayout rows="*" columns="*" >
+    <ListView [items]="glyphs" row="0" col="0" (itemTap)="onItemTap($event)">
+        <template let-item="item" > <!--let-i="index" let-code="code" let-even="even">-->
+            <StackLayout >
+                <Label [text]='item.icon' class="ion" ></Label>
+                <Label [text]='item.code' class="ion" ></Label>
+                <Label [text]='item.index' class="ion" > </Label>
+            </StackLayout>
+        </template>
+    </ListView>
+</GridLayout>

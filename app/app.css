@@ -1,0 +1,30 @@
+﻿button, label, stack-layout {
+    horizontal-align: center;    
+}
+
+button {
+    font-size: 36;
+}
+
+.title {
+    font-size: 30;
+    margin: 20;
+}
+
+.message {
+    font-size: 20;
+    color: #284848;
+    text-align: center;
+    margin: 0 20;
+} 
+
+
+.fa {
+    font-size: 60;
+    font-family: 'IcoMoon-Free';
+}
+
+.ion {
+  font-family: 'IcoMoon-Free';
+  font-size: 20;
+}
